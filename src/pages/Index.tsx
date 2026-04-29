@@ -2,9 +2,9 @@ import { Navbar } from "@/components/portfolio/Navbar";
 import { Hero } from "@/components/portfolio/Hero";
 import { Services } from "@/components/portfolio/Services";
 import { Work } from "@/components/portfolio/Work";
-import { ContactLinks } from "@/components/portfolio/ContactLinks";
 import { Pricing } from "@/components/portfolio/Pricing";
 import { CTA } from "@/components/portfolio/CTA";
+import { ContactLinks } from "@/components/portfolio/ContactLinks";
 import { Footer } from "@/components/portfolio/Footer";
 
 const Index = () => {
@@ -14,9 +14,9 @@ const Index = () => {
       <Hero />
       <Services />
       <Work />
-      <ContactLinks />
       <Pricing />
       <CTA />
+      <ContactLinks />
       <Footer />
     </main>
   );
